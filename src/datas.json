@@ -1,0 +1,118 @@
+{
+  "themes": [
+    {
+      "name": "Sciences",
+      "value": "1"
+    },
+    {
+      "name": "Géographie",
+      "value": "2"
+    }
+  ],
+  "questions": {
+    "1": [
+      {
+        "question": "Combien y a-t-il de millimètres dans 5 centimètres ?",
+        "answers": [
+          "500",
+          "50",
+          "5",
+          "0.5"
+        ],
+        "correctAnswer": "50"
+      },
+      {
+        "question": "Un pentagone a 5 côtés. Comment appelle-t-on un polygone à 12 côtés ?",
+        "answers": [
+          "Un dodécagone",
+          "Un ennéagone",
+          "Un hendécagone",
+          "Un iscosagone"
+        ],
+        "correctAnswer": "Un dodécagone"
+      },
+      {
+        "question": "Comment appelle-t-on le point souterrain où un séisme se déclenche ?",
+        "answers": [
+          "Un hypocentre",
+          "Une faille",
+          "Un épicentre",
+          "Un hypercentre"
+        ],
+        "correctAnswer": "Un hypocentre"
+      },
+      {
+        "question": "Quelle planète de notre système solaire est célèbre pour ses anneaux, que Galilée observa dès 1609 ?",
+        "answers": [
+          "Jupiter",
+          "Saturne",
+          "Uranus",
+          "Neptune"
+        ],
+        "correctAnswer": "Saturne"
+      },
+      {
+        "question": "Dans le système international d'unités, quel préfixe signifie « multiplie par dix » ?",
+        "answers": [
+          "Déca",
+          "Déci",
+          "Kilo",
+          "Hecto"
+        ],
+        "correctAnswer": "Déca"
+      }
+    ],
+    "2": [
+      {
+        "question": "Dans quel pays d'Europe coule le Tibre ?",
+        "answers": [
+          "Espagne",
+          "Italie",
+          "Belgique",
+          "Grèce"
+        ],
+        "correctAnswer": "Italie"
+      },
+      {
+        "question": "Dans quel pays se situe Waterloo, qui donna son nom à la bataille de 1815 ?",
+        "answers": [
+          "Belgique",
+          "France",
+          "Allemagne",
+          "Suède"
+        ],
+        "correctAnswer": "Belgique"
+      },
+      {
+        "question": "De quelle région fait partie le département de l'Allier ?",
+        "answers": [
+          "Bourgogne",
+          "Franche-Comté",
+          "Centre",
+          "Auvergne"
+        ],
+        "correctAnswer": "Auvergne"
+      },
+      {
+        "question": "De quelle ville d’Angleterre les Beatles sont-ils originaires ?",
+        "answers": [
+          "Liverpool",
+          "Manchester",
+          "Londres",
+          "Durham"
+        ],
+        "correctAnswer": "Liverpool"
+      },
+      {
+        "question": "Quel est le nouveau nom de la Birmanie ?",
+        "answers": [
+          "Laos",
+          "Myanmar",
+          "Vietnam",
+          "Thaïlande"
+        ],
+        "correctAnswer": "Myanmar"
+      }
+    ]
+  }
+}
