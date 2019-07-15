@@ -13,6 +13,10 @@ class Game extends Component {
     }
   }
 
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    // TODO: alerte quand 5s sans répondre
+  }
+
   render() {
     return (
       <div>

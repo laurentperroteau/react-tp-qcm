@@ -24,7 +24,6 @@ const Question = ({dataItem, onSubmit}) => {
       <div className="mdl-cell mdl-cell--4-col">
         <ul className="mdl-list">
           {dataItem.answers.map(answer => (
-
             <li className="mdl-list__item" key={answer}>
               <label className="mdl-radio">
                 <input

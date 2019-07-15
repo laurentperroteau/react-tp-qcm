@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import datas from './datas.json';
+import datas from './datas.json';
 import Game from './components/Game';
 import Button from './components/Button';
 
