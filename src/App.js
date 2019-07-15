@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import datas from './datas.json';
 import Game from './components/Game';
+import PropTypes from 'prop-types';
 
 class App extends Component {
 
   constructor(props) {
     super(props);
-
-    console.log(datas);
 
     this.state = {
       theme        : null,

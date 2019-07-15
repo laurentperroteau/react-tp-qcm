@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const Question = ({dataItem, onSubmit}) => {
   const [selectedAnswer, setSelectedAnswer] = useState('');
@@ -42,6 +43,14 @@ const Question = ({dataItem, onSubmit}) => {
       </div>
     </form>
   );
+};
+
+Question.propTypes = {
+  dataItem: PropTypes.shape({
+    question: PropTypes.string,
+    answers: PropTypes.arrayOf(PropTypes.string)
+  }).isRequired,
+  onSubmit: PropTypes.func.isRequired,
 };
 
 export default Question;

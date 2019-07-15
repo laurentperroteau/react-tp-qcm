@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Question from './Question';
 
 class Game extends Component {
@@ -36,5 +37,10 @@ class Game extends Component {
     this.setState(stateToUpdate);
   };
 }
+
+Game.propTypes = {
+  questions: PropTypes.object.isRequired,
+  onEnd: PropTypes.func.isRequired,
+};
 
 export default Game;
