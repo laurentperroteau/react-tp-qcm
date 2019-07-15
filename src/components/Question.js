@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import Button from './Button';
 
 const Question = ({dataItem, onSubmit}) => {
   const [selectedAnswer, setSelectedAnswer] = useState('');
@@ -18,9 +19,7 @@ const Question = ({dataItem, onSubmit}) => {
     <form onSubmit={handleSubmit} className="mdl-grid">
       <div className="mdl-cell mdl-cell--4-col">
         <h3>{dataItem.question}</h3>
-        <button type="submit" className="mdl-button mdl-js-button mdl-button--raised mdl-button--accent"
-                disabled={!selectedAnswer}>Répondre
-        </button>
+        <Button label="Répondre" isDisabled={!selectedAnswer} />
       </div>
       <div className="mdl-cell mdl-cell--4-col">
         <ul className="mdl-list">

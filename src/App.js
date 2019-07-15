@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import datas from './datas.json';
 import Game from './components/Game';
 import PropTypes from 'prop-types';
+import Button from './components/Button';
 
 class App extends Component {
 
@@ -25,12 +26,7 @@ class App extends Component {
             <ul className="mdl-list">
               {datas.themes.map(theme => (
                 <li className="mdl-list__item" key={theme.value}>
-                  <button
-                    type="submit"
-                    className="mdl-button mdl-js-button mdl-button--raised mdl-button--accent"
-                    onClick={() => this._handleChooseTheme(theme.value)}>
-                    {theme.name}
-                  </button>
+                  <Button label={theme.name} onClick={() => this._handleChooseTheme(theme.value)} />
                 </li>
               ))}
             </ul>
